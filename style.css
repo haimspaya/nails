@@ -22,7 +22,9 @@
     color: #965136;
     font-weight:bold
 }
-
+.carousel{
+display: none;
+}
 .image-container {
     position: relative;
     overflow: hidden;
@@ -74,4 +76,13 @@
     .collage{
         width: 50%;
     }
+}
+@media (max-width: 768px) {
+  .collage {
+    display: none;
+  }
+  .carousel{
+    display: block;
+    width: 70%;
+  }
 }

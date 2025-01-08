@@ -1,0 +1,21 @@
+.navbar,.nav{
+    flex-direction: row-reverse;
+}
+.nav-link{
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: rgb(104, 50, 50);
+}
+.carousel{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nails{
+    width: 50%;
+}
+@media (min-width: 1000px){
+    .nails{
+        width: 25%;
+    }
+}
